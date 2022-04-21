@@ -3,7 +3,6 @@ local egg_3d_model = 'ineva_egg.obj'
 local egg_group = {dig_immediate = 2,}
 
 minetest.register_node ('ostereier:osterei', {
-	drop = 'ostereier:osterei',
     description = 'Osterei',
     drawtype = 'mesh',
     mesh = egg_3d_model,
@@ -19,7 +18,6 @@ minetest.register_node ('ostereier:osterei', {
 })
 
 minetest.register_node ('ostereier:osterei2', {
-	drop = 'ostereier:osterei2',
     description = 'Osterei',
     drawtype = 'mesh',
     mesh = egg_3d_model,
@@ -35,7 +33,6 @@ minetest.register_node ('ostereier:osterei2', {
 })
 
 minetest.register_node ('ostereier:osterei3', {
-	drop = 'ostereier:osterei3',
     description = 'Osterei',
     drawtype = 'mesh',
     mesh = egg_3d_model,
@@ -51,7 +48,6 @@ minetest.register_node ('ostereier:osterei3', {
 })
 
 minetest.register_node ('ostereier:osterei4', {
-	drop = 'ostereier:osterei4',
     description = 'Osterei',
     drawtype = 'mesh',
     mesh = egg_3d_model,
@@ -67,7 +63,6 @@ minetest.register_node ('ostereier:osterei4', {
 })
 
 minetest.register_node ('ostereier:osterei5', {
-	drop = 'ostereier:osterei5',
     description = 'Osterei',
     drawtype = 'mesh',
     mesh = egg_3d_model,
@@ -83,7 +78,6 @@ minetest.register_node ('ostereier:osterei5', {
 })
 
 minetest.register_node ('ostereier:osterei6', {
-	drop = 'ostereier:osterei6',
     description = 'Osterei',
     drawtype = 'mesh',
     mesh = egg_3d_model,
